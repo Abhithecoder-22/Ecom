@@ -5,6 +5,7 @@ import Navbar from '../src/components/Navbar';
 // import LoginForm from './components/LoginForm';
 import { Routes,Route} from 'react-router-dom';
 import LoginForm from '../src/components/LoginForm';
+import Services  from './pages/Services';
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
     
    
    <Routes>
-     <Route path='/' element={<Navbar/>} ></Route>
+     <Route exact path='/' Component={() => <Navbar name="Navbar" />} ></Route>
      <Route path='/loginform' element={<LoginForm/>} ></Route>
+     <Route path='/services'  element={<Services/>}></Route>
 
    </Routes>
   

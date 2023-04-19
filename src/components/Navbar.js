@@ -42,15 +42,15 @@ const Navbar = () => {
           </ul>
           <ul className="middle">
             <li>
-              <a href="/">Services</a>
+              <NavLink to="/services">Services</NavLink>
             </li>
             <li>|</li>
             <li>
-              <a href="/">Portfolio</a>
+              <NavLink to="/services">Portfolio</NavLink>
             </li>
             <li>|</li>
             <li>
-              <a href="/">Contact Us</a>
+              <NavLink to="/services">Contact Us</NavLink>
             </li>
           </ul>
         </nav>
@@ -79,18 +79,20 @@ const Navbar = () => {
 
           <ul>
             <li>
-              <div className="drop-btn">Home
+              
+              <div className="drop-btn"><NavLink activeClassName="active_class" className='nav-item' aria-current="page" to='/'>Home</NavLink> 
                 <div className="content">
                   <a href="/">Link 1</a>
                   <a href="/">Link 1</a>
                   <a href="/">Link 1</a>
                 </div>
               </div>
+              
               {/* <a href="/">Home</a> */}
             </li>
 
             <li>
-              <div className="drop-btn">Premium Tools
+              <div className="drop-btn"><NavLink className='nav-item' to='/services'>Premium Tools</NavLink> 
                 <div className="content">
                   <a href="/">Link 1</a>
                   <a href="/">Link 1</a>
@@ -102,7 +104,7 @@ const Navbar = () => {
 
 
             <li>
-              <div className="drop-btn">Advertising
+              <div className="drop-btn"><NavLink className='nav-item' to='/services'>Advertising</NavLink> 
                 <div className="content">
                   <a href="/">Link 1</a>
                   <a href="/">Link 1</a>
@@ -113,7 +115,7 @@ const Navbar = () => {
             </li>
 
             <li>
-              <div className="drop-btn">Services
+              <div className="drop-btn"><NavLink className='nav-item' to='/services'>Services</NavLink> 
                 <div className="content">
                   <a href="/">Link 1</a>
                   <a href="/">Link 1</a>
@@ -125,7 +127,7 @@ const Navbar = () => {
 
 
             <li>
-              <div className="drop-btn">Web Hosting
+              <div className="drop-btn"><NavLink className='nav-item' to='/services'>Web Hosting</NavLink> 
                 <div className="content">
                   <a href="/">Link 1</a>
                   <a href="/">Link 1</a>
@@ -135,7 +137,7 @@ const Navbar = () => {
               {/* <a href="/">Premium Tools</a> */}
             </li>
             <li>
-              <div className="drop-btn">My Products
+              <div className="drop-btn"><NavLink className='nav-item' to='/services'>My Products</NavLink> 
                 <div className="content">
                   <a href="/">Link 1</a>
                   <a href="/">Link 1</a>
@@ -367,6 +369,8 @@ const Navbar = () => {
             </ul>
           </section> */}
 
+
+{/* footer section */}
 
           <footer>
             {/* footer main  */}
