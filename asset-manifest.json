@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Abhithecoder-22/Ecom.git/static/css/main.274b9725.css",
+    "main.js": "/Abhithecoder-22/Ecom.git/static/js/main.5d3a77ef.js",
+    "static/media/marvin-meyer-SYTO3xs06fU-unsplash.jpg": "/Abhithecoder-22/Ecom.git/static/media/marvin-meyer-SYTO3xs06fU-unsplash.482f33f2615ecba89f77.jpg",
+    "static/media/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg": "/Abhithecoder-22/Ecom.git/static/media/shahadat-rahman-BfrQnKBulYQ-unsplash.505df75e5fe07879594f.jpg",
+    "static/media/img.png": "/Abhithecoder-22/Ecom.git/static/media/img.bac1920355743ead3d37.png",
+    "static/media/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg": "/Abhithecoder-22/Ecom.git/static/media/ramon-salinero-vEE00Hx5d0Q-unsplash.e0a8b7b97c792ff80515.jpg",
+    "static/media/avatar_login.png": "/Abhithecoder-22/Ecom.git/static/media/avatar_login.71cd463caf940622ef04.png",
+    "static/media/web.webp": "/Abhithecoder-22/Ecom.git/static/media/web.8bb6530428f2415e3071.webp",
+    "static/media/face.webp": "/Abhithecoder-22/Ecom.git/static/media/face.4b972dfb8d0be1d2234c.webp",
+    "static/media/arti.webp": "/Abhithecoder-22/Ecom.git/static/media/arti.55e7e4163fd271827a98.webp",
+    "index.html": "/Abhithecoder-22/Ecom.git/index.html",
+    "main.274b9725.css.map": "/Abhithecoder-22/Ecom.git/static/css/main.274b9725.css.map",
+    "main.5d3a77ef.js.map": "/Abhithecoder-22/Ecom.git/static/js/main.5d3a77ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.274b9725.css",
+    "static/js/main.5d3a77ef.js"
+  ]
+}
