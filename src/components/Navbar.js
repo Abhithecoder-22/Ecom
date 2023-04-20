@@ -5,7 +5,7 @@ import img3 from "../images/face.webp"
 import img4 from "../images/web.webp"
 import img5 from "../images/marvin-meyer-SYTO3xs06fU-unsplash.jpg"
 import img6 from "../images/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"
-import img7 from "../images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg"
+// import img7 from "../images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg"
 
 
 // import { NavLink, BrowserRouter as Router,Routes, Route } from 'react-router-dom';
@@ -153,25 +153,46 @@ const Navbar = () => {
           <section class="hero">
             <ImageSlider effectDelay={1000} autoPlayDelay={1000} >
               <Slide>
-                <img alt="img2" src={img5}
-                 
-
+                <img alt="img2" src={img4}
+                 style={{width:600, height:600 ,padding:20 ,margin:20}}
+                
                 />
-                <div className="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id soluta minima doloribus rerum, magni illo. Neque labore temporibus autem ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt architecto obcaecati minima esse iste! Blanditiis nemo officiis repellendus fugit consectetur eveniet adipisci exercitationem magni velit saepe ipsum quam voluptas placeat illum dolor quaerat sed dolorem nam iusto, aspernatur ducimus natus?</div>
+                
+                <div className="text">
+                  <h1>Maximize Your Online Visibility with Our Comprehensive Web Development, SEO, and Google Ads Services</h1>
+                
+                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id soluta minima doloribus rerum, magni illo. Neque labore temporibus autem ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt architecto obcaecati minima esse iste! Blanditiis nemo officiis repellendus fugit consectetur eveniet adipisci exercitationem magni velit saepe ipsum quam voluptas placeat illum dolor quaerat sed dolorem nam iusto, aspernatur ducimus natus?
+                 </p>
+                 {/* <button className="text-btn" >Know More</button> */}
+                 </div>
               </Slide>
               <Slide>
-                <img alt="img2" src={img6} />
-                <div className="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id soluta minima doloribus rerum, magni illo. Neque labore temporibus autem ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt architecto obcaecati minima esse iste! Blanditiis nemo officiis repellendus fugit consectetur eveniet adipisci exercitationem magni velit saepe ipsum quam voluptas placeat illum dolor quaerat sed dolorem nam iusto, aspernatur ducimus natus?</div>
+                <img alt="img2" src={img4} style={{width:600, height:600 ,padding:20 ,margin:20}}/>
+                <div className="text">
+                <h1>Maximize Your Online Visibility with Our Comprehensive Web Development, SEO, and Google Ads Services</h1>
+                
+                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id soluta minima doloribus rerum, magni illo. Neque labore temporibus autem ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt architecto obcaecati minima esse iste! Blanditiis nemo officiis repellendus fugit consectetur eveniet adipisci exercitationem magni velit saepe ipsum quam voluptas placeat illum dolor quaerat sed dolorem nam iusto, aspernatur ducimus natus?
+                 </p>
+                 {/* <button className="search-btn">Know More</button> */}
+                 </div>
               </Slide>
               <Slide>
-                <img alt="img1" src={img7} />
-                <div className="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id soluta minima doloribus rerum, magni illo. Neque labore temporibus autem ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt architecto obcaecati minima esse iste! Blanditiis nemo officiis repellendus fugit consectetur eveniet adipisci exercitationem magni velit saepe ipsum quam voluptas placeat illum dolor quaerat sed dolorem nam iusto, aspernatur ducimus natus?</div>
+                <img alt="img1" src={img4} style={{width:600, height:600 ,padding:20 ,margin:20}}/>
+
+                <div className="text">
+                <h1>Maximize Your Online Visibility with Our Comprehensive Web Development, SEO, and Google Ads Services</h1>
+                  
+                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id soluta minima doloribus rerum, magni illo. Neque labore temporibus autem ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt architecto obcaecati minima esse iste! Blanditiis nemo officiis repellendus fugit consectetur eveniet adipisci exercitationem magni velit saepe ipsum quam voluptas placeat illum dolor quaerat sed dolorem nam iusto, aspernatur ducimus natus?
+                 </p>
+                 
+                {/* <button className="search-btn">Know More</button>*/}
+                </div> 
               </Slide>
             </ImageSlider>
           </section>
 
           <section className="about">
-            <h1>About RVT Technology</h1>
+            <h1 className="texts underline">About RVT Technology</h1>
             <div className="about-content">
               <img src={img5} style={{ width: 500, height: 500 }} alt="" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis inventore similique exercitationem at adipisci velit consequatur perspiciatis, voluptas officiis? Ipsam atque reprehenderit tempora, enim quisquam suscipit laboriosam minima impedit at. Lorem ipsum, dolor sit amet consectetur adipisicing elit. A sit quasi voluptatum cumque, quas facere saepe? Doloribus perferendis voluptas expedita rerum, quae nihil eaque, debitis laborum cumque sint quasi maxime placeat amet, vitae et error voluptatibus necessitatibus aut! Ea distinctio necessitatibus consectetur, dicta tempora deleniti laboriosam impedit reiciendis rem, quo, mollitia nostrum assumenda saepe excepturi id ullam quisquam a modi esse iste. Asperiores cum, sequi voluptatem aliquid commodi incidunt dolorem quia nisi tenetur magni accusamus delectus, aperiam laboriosam eos quo esse sint rerum quis quae provident. Sapiente quo sit officia, fugiat inventore eos vitae, asperiores nam molestias error amet harum!</p>
@@ -247,7 +268,7 @@ const Navbar = () => {
             </ul>
           </section>
           <section className="consultation">
-            <h1>Free Consultation</h1>
+            <h1 className="texts underline">Free Consultation</h1>
             <div className="consult-content">
 
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, vitae et. Iure assumenda, maiores culpa itaque maxime facere placeat modi mollitia dicta deserunt hic provident aliquid explicabo totam in fuga eaque velit, aut corrupti debitis ipsa veritatis! Esse ratione Suscipit, aperiam eligendi deleniti nihil nemo adipisci cum in cumque voluptatum quos praesentium illum, eum rem. Vitae optio non omnis dolores quis ad labore, placeat deserunt nam nulla in deleniti.  laborum, minus magnam eius exercitationem excepturi aspernatur deleniti dolorem nulla consequuntur? Ipsa minima dicta quis, facilis beatae quam! Facere possimus inventore pariatur et minus dolore magni. </p>

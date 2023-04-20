@@ -260,20 +260,63 @@ main {
   position: absolute;
   bottom: 20px;
   width: 100%;
+
   /* float: right; */
   text-align: center;
 }
 
 .hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  position: relative;
+  font-size: 30px;
+  /* margin-bottom: 1rem; */
+  margin: 15px 20px;
+  max-width: 50%;
+  font-weight: 600;
+  display: flex;
+  float: right;
+  color: black;
+
 }
 
 .hero p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+  position: relative;
+  font-size: 20px;
+  /* margin-bottom: 1rem; */
+  margin: 40px 20px;
+  max-width: 50%;
+  font-weight: 400;
+  display: flex;
+  float: right;
+  color: black;
+}
+.hero img{
+  position: relative;
+  width: 10px ;
+  height: 10px;
+  /* max-width: 50%; */
 }
 
+.bEEnfA{
+  /* display: none; */
+  box-sizing: border-box;
+  position: absolute;
+  top: 125% !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  -webkit-box-pack: center;
+}
+
+.dFaRkk {
+  width: 3rem;
+  height: 3rem;
+  border: 0px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 4rem;
+  background: none !important;
+  cursor: pointer;
+}
 .cta {
   display: inline-block;
   background-color: #fff;
@@ -295,9 +338,10 @@ main {
   text-align: center;
 }
 .services {
-  background-color: #000000;
+  background: url("./images/BlackBack.jfif");
   /* max-width: 1200px; */
   margin: 0 auto;
+
   padding: 3rem 1rem;
 }
 
@@ -389,19 +433,24 @@ main {
   gap: 40px;
 }
 .consultation h1{
-  text-decoration: underline solid red;
+  /* text-decoration: underline solid red; */
   /* width: fit-content; */
   /* display: flex; */
-  text-align: center;
-  
-  text-transform: uppercase;
-  padding-bottom: 75px;
-  /* border-bottom:2px solid red; */
-  line-height: 40px;
+  display: flex;
   position: relative;
+ /* text-decoration: underline solid red; */
+ /* text-align: center; */
+ text-transform: uppercase;
+ padding-bottom: 5px;
+ /* padding: 10px 10px; */
+ line-height: 40px;
+ margin: 40px 40px;
+ border-spacing: 80px;
+ /* border-bottom: 2px solid red; */
+width: max-content;
 }
  .request{
-  /* position: absolute; */
+  position: relatives;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0 10px 10px lightslategray;
   
@@ -421,17 +470,33 @@ main {
   width: fit-content;
 }
 .about h1{
-  /* display: flex; */
+  display: flex;
   position: relative;
- text-decoration: underline solid red;
- text-align: center;
+ /* text-decoration: underline solid red; */
+ /* text-align: center; */
  text-transform: uppercase;
- /* padding-bottom: 15px; */
- padding: 10px 10px;
+ padding-bottom: 5px;
+ /* padding: 10px 10px; */
  line-height: 40px;
- /* border-spacing: 80px; */
+ margin: 40px 40px;
+ border-spacing: 80px;
  /* border-bottom: 2px solid red; */
-/* width: max-content; */
+width: max-content;
+}
+.texts {
+  font-size: 30px;
+  line-height: 14px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+.underline {
+  border-bottom: 2px solid #000000;
+  position: absolute;
+ 
+  display: inline-block;
+  left: 50%; /* add left property to center the underline */
+  transform: translateX(-50%); /* add transform property to center the underline */
 }
 .about-content{
   display: flex;
@@ -476,9 +541,16 @@ main {
 }
 
 .products{
-  background-color: #000000;
+  position: relative;
+  /* background-color: #000000; */
+  background: url("./images/BlackBack.jfif");
   /* max-width: 1200px; */
   margin: 0 auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 1100px;
+  /* object-position: 10% 15%; */
   padding: 3rem 1rem;
 }
 .products img{
@@ -566,7 +638,9 @@ main {
 
   /* padding: 3rem 1rem; */
 }
-
+img, svg {
+  vertical-align: 0;
+}
 .portfolio h2 {
   text-align: center;
   margin-bottom: 2rem;
@@ -591,7 +665,7 @@ ul{
   padding-left: 0;
 }
 footer{
-  background-color: #555;
+  background-color: #090930;
   color: #bbb;
   line-height: 1.5;
 }

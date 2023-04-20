@@ -27,14 +27,15 @@ input {
     border-radius: 20px;
     padding: 40px;
     box-sizing: border-box;
-    background: #ecf0f3;
+    background: #f2f4f5;
     /* padding: 400px 400px; */
     /* display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     place-items: center; */
-    margin: 50px 500px ;
+    margin: 50px 0px ;
+    left: 40%;
     box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
   }
   
